@@ -25,32 +25,3 @@ body {
     width: 100%;
     background-color: var(--gray-100);
 }
-
-header {
-    width: 100%;
-    background-color: var(--brand-200);
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 5px 10px;
-}
-
-header a { /* All anchor elements in header, no matter how deep they root */
-    font-size: 24px;
-    color: var(--accent-500);
-
-    &:hover {
-        color: var(--accent-500);
-    }
-}
-
-a > img { /* Only images directly in anchor elements */
-    aspect-ratio: 1/1;
-    width: 50px;
-}
