@@ -1,5 +1,6 @@
 :root { /* Use these by calling var(--gray-500) for example */
     --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
     --gray-500: #6b7280;
     --gray-700: #374151;
     --gray-900: #111827;
