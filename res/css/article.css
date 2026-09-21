@@ -54,6 +54,7 @@ main article p + img {
         border-right: 1px solid var(--gray-500);
         border-left: 1px solid var(--gray-500);
         max-width: 640px;
+        margin-top: 30px;
     }
 
     main article > div {
