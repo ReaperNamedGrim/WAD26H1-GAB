@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 16px;
+    background-color: var(--accent-100);
+
+    & address > a {
+        font-weight: 600;
+        color: var(--brand-900);
+        text-decoration: none;
+        font-style: normal;
+        transition: color 200ms ease-in-out;
+
+        &:hover {
+            color: var(--brand-500);
+        }
+    }
+}
+
+@media only screen and (width >= 640px) {
+    footer {
+        margin-top: 50px;
+        height: 75px;
+    }
+}
+
+@media only screen and (width >= 1024px) {
+    footer {
+        font-size: 18px;
+        height: 80px;
+    }
+}

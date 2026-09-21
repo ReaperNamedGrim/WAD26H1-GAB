@@ -1,22 +1,30 @@
+:root { /* Use these by calling var(--gray-500) for example */
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --brand-200: #bae6fd;
+    --brand-300: #7dd3fc;
+    --brand-500: #0ea5e9;
+    --brand-600: #0284c7;
+    --brand-700: #0369a1;
+    --brand-900: #0c4a6e;
+    --accent-100: #fef3c7;
+    --accent-300: #fcd34d;
+    --accent-500: #f59e0b;
+    --accent-700: #b45309;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--gray-900);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     width: 100%;
-}
-
-header {
-    width: 100%;
-}
-
-header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 5px 10px;
-    background-color: red;
+    background-color: var(--gray-100);
 }

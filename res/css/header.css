@@ -1,0 +1,66 @@
+header {
+    width: 100%;
+    background-color: var(--brand-200);
+    border-bottom: 1px solid var(--brand-300);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+header a { /* All anchor elements in header, no matter how deep they root */
+    font-size: 24px;
+    text-decoration: none;
+    padding: 3px 5px;
+    color: var(--gray-700);
+    transition: color 200ms ease-in-out;
+
+    &:hover, &:active {
+        color: var(--accent-700);
+    }
+}
+
+header > nav > div ~ h1 {
+    display: none;
+}
+
+.header__profile {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 100%;
+    transition: background-color 200ms ease-in-out;
+
+    &:hover {
+        background-color: var(--accent-100)
+    }
+}
+
+a > img { /* Only images directly in anchor elements */
+    display: flex;
+    align-self: center;
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+@media only screen and (width >= 640px) {
+    header > nav > div ~ h1 {
+        display: block;
+    }
+
+    .header__profile {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (width >= 1024px) {
+    nav {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+}
