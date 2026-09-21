@@ -23,6 +23,10 @@ header a { /* All anchor elements in header, no matter how deep they root */
     }
 }
 
+header > nav > div ~ h1 {
+    display: none;
+}
+
 .header__profile {
     height: 40px;
     width: 40px;
@@ -43,6 +47,10 @@ a > img { /* Only images directly in anchor elements */
 }
 
 @media only screen and (width >= 640px) {
+    header > nav > div ~ h1 {
+        display: block;
+    }
+
     .header__profile {
         height: 50px;
         width: 50px;
