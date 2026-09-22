@@ -5,7 +5,7 @@ main {
 }
 
 main article {
-    background-color: #ffffff;
+    background-color: var(--gray-050);
     border: 1px solid var(--gray-200);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);

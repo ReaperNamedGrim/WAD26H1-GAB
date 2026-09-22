@@ -13,7 +13,7 @@ nav {
 }
 
 header a { /* All anchor elements in header, no matter how deep they root */
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     padding: 3px 5px;
     color: var(--gray-700);
@@ -48,6 +48,10 @@ a > img { /* Only images directly in anchor elements */
 }
 
 @media only screen and (width >= 640px) {
+    header a {
+        font-size: 20px;
+    }
+
     header > nav > div ~ h1 {
         display: block;
     }
@@ -62,5 +66,9 @@ a > img { /* Only images directly in anchor elements */
     nav {
         max-width: 1080px;
         margin: 0 auto;
+    }
+
+    header a {
+        font-size: 24px;
     }
 }
