@@ -1,4 +1,5 @@
 :root { /* Use these by calling var(--gray-500) for example */
+    --gray-050: #fafafa;
     --gray-100: #f3f4f6;
     --gray-200: #e5e7eb;
     --gray-500: #6b7280;
@@ -14,6 +15,9 @@
     --accent-300: #fcd34d;
     --accent-500: #f59e0b;
     --accent-700: #b45309;
+    --shadow-sm: 0 1px 3px rgb(0 0 0 / 0.08);
+    --shadow-md: 0 4px 12px rgb(0 0 0 / 0.12);
+    --radius: 8px;
 }
 
 * {

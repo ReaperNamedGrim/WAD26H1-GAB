@@ -1,7 +1,7 @@
 header {
     width: 100%;
     background-color: var(--brand-200);
-    border-bottom: 1px solid var(--brand-300);
+    box-shadow: var(--shadow-sm);
 }
 
 nav {
