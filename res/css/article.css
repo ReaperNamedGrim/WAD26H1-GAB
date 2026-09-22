@@ -5,14 +5,21 @@ main {
 }
 
 main article {
-    background-color: var(--gray-200);
-    border: 1px solid var(--gray-500);
-    border-left: 0;
-    border-right: 0;
+    background-color: var(--gray-050);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     width: 100%;
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+
+    &:hover {
+        box-shadow: var(--shadow-md);
+        transform: translateY(-1px);
+    }
 }
 
 main article > div {
@@ -22,12 +29,17 @@ main article > div {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--gray-500);
+    border-bottom: 1px solid var(--gray-200);
 
     & img {
         align-self: center;
         width: 20px;
         aspect-ratio: 1/1;
+    }
+
+    & time {
+        color: var(--gray-500);
+        font-size: 14px;
     }
 }
 
@@ -45,14 +57,12 @@ main article p + img {
     cursor: pointer;
 
     &:hover {
-        background-color: var(--brand-300);
+        background-color: var(--accent-100);
     }
 }
 
 @media only screen and (width >= 640px) {
     main article {
-        border-right: 1px solid var(--gray-500);
-        border-left: 1px solid var(--gray-500);
         max-width: 640px;
         margin-top: 30px;
     }
