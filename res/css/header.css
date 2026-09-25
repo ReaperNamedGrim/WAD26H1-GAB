@@ -28,6 +28,7 @@ header a { /* All anchor elements in header, no matter how deep they root */
 
     &:hover, &:active {
         color: var(--accent-700);
+        background-color: var(--accent-100);
     }
 }
 
