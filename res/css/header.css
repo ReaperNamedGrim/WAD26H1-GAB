@@ -19,17 +19,29 @@ nav {
     padding: 10px 15px;
 }
 
+.header__links {
+    display: flex;
+    align-items: center;
+}
+
 header a { /* All anchor elements in header, no matter how deep they root */
+    position: relative;
     font-size: 20px;
     text-decoration: none;
     padding: 3px 5px;
+    border-radius: var(--radius);
+    transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
     color: var(--gray-700);
-    transition: color 200ms ease-in-out;
 
     &:hover, &:active {
         color: var(--accent-700);
         background-color: var(--accent-100);
     }
+}
+
+.header__spacer {
+    font-size: 26px;
+    cursor: default;
 }
 
 header > nav > div ~ h1 {
