@@ -11,6 +11,36 @@ header {
     z-index: 5;
 }
 
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: var(--gray-100);
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px var(--gray-500);
+    width: 160px;
+    z-index: 100;
+}
+
+.dropdown-menu p, 
+.dropdown-menu a {
+    margin: 5px 0;
+    font-size: 14px;
+    color: var(--brand-900);
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -54,13 +84,15 @@ header > nav > div ~ h1 {
     padding: 10px;
     border-radius: 100%;
     transition: background-color 200ms ease-in-out;
+    position: relative;
+    display: inline-block; /* Fixes inline sizing inside the wrapper div */
 
     &:hover {
         background-color: var(--accent-100)
     }
 }
 
-a > img { /* Only images directly in anchor elements */
+.header__profile img { 
     display: flex;
     align-self: center;
     aspect-ratio: 1/1;
@@ -70,10 +102,6 @@ a > img { /* Only images directly in anchor elements */
 @media only screen and (width >= 640px) {
     header {
         height: 90px;
-    }
-
-    header a {
-        font-size: 20px;
     }
 
     header > nav > div ~ h1 {
