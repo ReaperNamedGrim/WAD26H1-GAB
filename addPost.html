@@ -17,9 +17,17 @@
           <a href="./index.html">Home</a>
         </div>
 
-        <a class="header__profile" href="./login.html">
-          <img src="./res/images/profile.png" alt="user profile" />
-        </a>
+            <div class="profile-container">
+                <a class="header__profile" id="profile-icon" href="./login.html">
+                    <img src="./res/images/profile.png" alt="user profile">
+                </a>
+                <!-- Dropdown menu (initially hidden via CSS) -->
+                <div id="profile-dropdown" class="dropdown-menu" style="display: none;">
+                    <b><p id="dropdown-name">Name</p></b>
+                    <p id="dropdown-email">email@ut.ee</p>
+                    <a href="#" id="logout-btn">Logout</a>
+                </div>
+            </div>
       </nav>
     </header>
 
@@ -44,5 +52,6 @@
         </form>
       </div>
     </main>
+    <script src="./src/js/header.js"></script>
   </body>
 </html>
