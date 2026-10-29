@@ -1,0 +1,81 @@
+{
+    "posts": [
+        {
+            "id": "f0l2re",
+            "time_created": "2026-08-20T20:00:00.000Z",
+            "author": "User1",
+            "post": "Can't wait to start Uni in September!!",
+            "img_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Festonianworld.com%2Fwp-content%2Fuploads%2F2022%2F03%2FUniversity-of-Tartu.-Photo-by-Andres-Tennus..jpg&f=1&nofb=1&ipt=7300cf10565ada6d014688c62b0abc83741ecce5b2183e4cfdb09462936e9b31&ipo=images",
+            "img_alt": "University of Tartu",
+            "img_local": "./res/images/uni.png"
+        },
+        {
+            "id": "024knjv",
+            "time_created": "2026-09-01T20:00:00.000Z",
+            "author": "User2",
+            "post": "Lets gooooooooooooo... 📣"
+        },
+        {
+            "id": "9013ncwe",
+            "time_created": "2026-09-15T20:00:00.000Z",
+            "author": "User3",
+            "post": "myGrades > uniAverage ? 'I'm happy!' : 'I need to push myself more'"
+        },
+        {
+            "id": "j234jf0",
+            "time_created": "2026-09-19T20:00:00.000Z",
+            "author": "User1",
+            "post": "I hope I tick all boxes with my homework 🤞🏼"
+        },
+        {
+            "id": "91f0fvkne",
+            "time_created": "2026-09-21T20:00:00.000Z",
+            "author": "User3",
+            "post": "They are soooooo back! Awsome image by Toyota.",
+            "img_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flesvoitures.fr%2Fwp-content%2Fuploads%2F2018%2F04%2FOtt-Tanak-Toyota-wrc.jpg&f=1&nofb=1&ipt=9333762150be63c0de3b4ed1f2d41fe901f43caf51d2edd2c8b1e7454593eb6c&ipo=images",
+            "img_alt": "Toyota Rally1 car",
+            "img_local": "./res/images/tanak.png"
+        },
+        {
+            "id": "opi24fvj",
+            "time_created": "2026-09-27T20:00:00.000Z",
+            "author": "User2",
+            "post": "First midterm done. Coffee count: too many ☕"
+        },
+        {
+            "id": "k39sd01x",
+            "time_created": "2026-10-05T18:30:00.000Z",
+            "author": "User1",
+            "post": "Autumn in Tartu is unreal, the leaves are all gold now.",
+            "img_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F30128265%2Fpexels-photo-30128265%2Ffree-photo-of-misty-autumn-morning-in-tartu-park.jpeg%3Fw%3D1260%26h%3D750%26dpr%3D2&f=1&nofb=1&ipt=4fc5e51846fae2a830eea6d667f3b10ee8c9ba951bc6098f43e384c8450c0f99&ipo=images",
+            "img_alt": "Autumn Tartu",
+            "img_local": "./res/images/autumn.png"
+        },
+        {
+            "id": "z82mqa7c",
+            "time_created": "2026-10-14T20:00:00.000Z",
+            "author": "User3",
+            "post": "Group project meeting at 8am. Who even schedules that?",
+            "img_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftartu.openhousetallinn.ee%2Fwp-content%2Fuploads%2F2024%2F03%2FOHTartu24_TUDelta_KevinLoigu-2.jpg&f=1&nofb=1&ipt=db814742ae31ff96b145d062ee0522211b572adb55fa9c19ae8cf62d6c11b82f&ipo=images",
+            "img_alt": "UT Delta in the morning",
+            "img_local": "./res/images/deltaMorning.png"
+        },
+        {
+            "id": "p47vhn3t",
+            "time_created": "2026-10-23T20:00:00.000Z",
+            "author": "User2",
+            "post": "Finally figured out flexbox. Only took three days.",
+            "img_alt": "Screenshot of VSCode",
+            "img_local": "./res/images/vsCodeScreen.png"
+        },
+        {
+            "id": "w16bdr9e",
+            "time_created": "2026-11-01T20:00:00.000Z",
+            "author": "User1",
+            "post": "Weekend plan: sleep, code, repeat. 😴",
+            "img_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffluentbooking.com%2Fwp-content%2Fuploads%2F2025%2F10%2FScreenshot-2025-10-03-at-12.18.11%25E2%2580%25AFAM-1_compressed_q95-1024x664.webp&f=1&nofb=1&ipt=bc907a03929546b9494c7b22fea629df26ddde8f03377ade2b0ba860e60070d6&ipo=images",
+            "img_alt": "Apple Calendar",
+            "img_local": "./res/images/calendar.png"
+        }
+    ]
+}
