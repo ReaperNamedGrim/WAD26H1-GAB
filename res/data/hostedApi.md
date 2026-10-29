@@ -1,0 +1,1 @@
+The posts.json is hosted at Mockendpoint (https://api.mockendpoint.com/v1/ioe6ii7t)

@@ -1,11 +1,16 @@
-const URL = "https://api.mockendpoint.com/v1/yhwbsk4s"
+const API_URL = "https://api.mockendpoint.com/v1/ioe6ii7t"
 
 export const getPosts = async () => {
-    const res = await fetch(URL)
-        .then((posts) => posts.json())
-        .catch((err) => console.error(err))
+    try {
+        const res = await fetch(API_URL)
 
-    return res
+        if(!res.ok) throw new Error(`HTTP ${res.status}`)
+
+        const data = await res.json()
+
+        return data.posts ?? []
+    } catch (err) {
+        console.log(err)
+        return []
+    }
 }
-
-console.log(await getPosts())
